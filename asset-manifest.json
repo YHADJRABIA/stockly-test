@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stockly-test/static/css/main.43362d4d.chunk.css",
+    "main.js": "/stockly-test/static/js/main.f0e66cd3.chunk.js",
+    "main.js.map": "/stockly-test/static/js/main.f0e66cd3.chunk.js.map",
+    "runtime-main.js": "/stockly-test/static/js/runtime-main.989615cb.js",
+    "runtime-main.js.map": "/stockly-test/static/js/runtime-main.989615cb.js.map",
+    "static/js/2.7637b266.chunk.js": "/stockly-test/static/js/2.7637b266.chunk.js",
+    "static/js/2.7637b266.chunk.js.map": "/stockly-test/static/js/2.7637b266.chunk.js.map",
+    "index.html": "/stockly-test/index.html",
+    "static/css/main.43362d4d.chunk.css.map": "/stockly-test/static/css/main.43362d4d.chunk.css.map",
+    "static/js/2.7637b266.chunk.js.LICENSE.txt": "/stockly-test/static/js/2.7637b266.chunk.js.LICENSE.txt",
+    "static/media/logo.c981bdaa.png": "/stockly-test/static/media/logo.c981bdaa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.989615cb.js",
+    "static/js/2.7637b266.chunk.js",
+    "static/css/main.43362d4d.chunk.css",
+    "static/js/main.f0e66cd3.chunk.js"
+  ]
+}
