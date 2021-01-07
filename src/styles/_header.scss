@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+}
+
+// Navigation bar
+nav {
+  min-height: 10vh;
+  @include flexCenter(row);
+  position: sticky;
+  top: 0;
+  background-color: $specialColour;
+}
+
+.flags {
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
+
+/*------------- Reponsive ---------*/
+// Tablet
+@media only screen and (min-width: map-get($breakpoints, tablet)) {
+  // Desktop
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
+  }
+}

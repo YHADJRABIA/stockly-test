@@ -1,0 +1,38 @@
+{
+  "firstName": "Yacine",
+  "lastName": "Hadj Rabia",
+  "languages": {
+    "en": "English",
+    "fr": "French"
+  },
+  "navNames": {
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio"
+  },
+  "exercises": {
+    "title": "Entry Test exercises",
+    "content": "This page is a graphical interface of the entry test I took, its purpose is to express you guys at Stockly my eagerness of joining your team!"
+  },
+  "exercise1": {
+    "name": "String Reverser",
+    "content": "Input something to reverse its order.",
+    "default": "Input something..."
+  },
+  "exercise2": {
+    "name": "Fizz Buzz",
+    "content": "Input a number and behold the magic of fizzbuzz!",
+    "default": "Integers only!"
+  },
+  "exercise3": {
+    "name": "Perfect Squares",
+    "content": "Input an upper limit, all the perfect squares pertaining to the 0-to-upper-limit interval will be displayed.",
+    "default": "Positive integers only!"
+  },
+  "exercise4": {
+    "name": "Camel to Kebab",
+    "content": "Input something in camel case – thisIsAnExample for instance – for it to be converted into its kebab case equivalent – which is this-is-an-example.",
+    "default": "typeYourText!"
+  },
+  "madeWith": "Made with ReactJS"
+}

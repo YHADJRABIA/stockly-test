@@ -1,0 +1,38 @@
+{
+  "firstName": "Yacine",
+  "lastName": "HADJ RABIA",
+  "languages": {
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "navNames": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "portfolio": "Portfolio"
+  },
+  "exercises": {
+    "title": "Exercices de l'épreuve d'admission",
+    "content": "Cette page représente l'interface graphique de l'épreuve d'admission récemment passée, à travers cette réalisation, j'espère exprimer à l'équipe de Stockly mon ardente détermination à les rejoindre !"
+  },
+  "exercise1": {
+    "name": "Inverseur de chaîne de caractères",
+    "content": "Introduisez un texte pour en afficher le contenu inversé.",
+    "default": "Saisissez quelque chose..."
+  },
+  "exercise2": {
+    "name": "Fizz Buzz",
+    "content": "Saisissez un nombre et laissez-vous suprendre par la magie de fizzbuzz !",
+    "default": "Entiers uniquement !"
+  },
+  "exercise3": {
+    "name": "Carrés Parfaits",
+    "content": "Introduisez une limite supérieure, tous les carrés parfaits compris dans cet intervalle s'afficherons.",
+    "default": "Numéros positifs uniquement !"
+  },
+  "exercise4": {
+    "name": "Camel to Kebab",
+    "content": "Introduisez quelque chose en camel case – ceciEstUnExemple par exemple – afin d'en effectuer la conversion en un kebab case équivalent – qui serait ceci-est-un-exemple.",
+    "default": "saisissezQuelqueChose !"
+  },
+  "madeWith": "Conçu avec ReactJS"
+}

@@ -1,0 +1,68 @@
+footer {
+  @include flexCenter(column);
+  justify-content: space-around;
+  min-height: 20vh;
+  width: 100%;
+  background-color: $primaryColour;
+  color: white;
+}
+address {
+  @include flexCenter(row);
+  width: 100%;
+  justify-content: space-evenly;
+  i {
+    font-size: 3.5rem;
+  }
+  & a {
+    transition: all 0.2s ease-in;
+    &:hover {
+      transform: scale(1.2);
+      & i {
+        color: $secondaryColour;
+      }
+    }
+  }
+}
+
+.made-with-react {
+  @include flexCenter(row);
+  transform: translateY(50%);
+  & p {
+    color: white;
+    margin: 0 auto;
+  }
+  & i {
+    animation: rotating 2s linear infinite;
+    font-size: 2.5rem;
+    background-color: transparent;
+  }
+}
+
+small {
+  font-size: large;
+}
+
+// Filling in SVG gap
+svg {
+  background-color: $secondaryColour;
+  margin-bottom: -1rem;
+}
+
+/*------------- Reponsive ---------*/
+// Tablet
+@media only screen and (min-width: map-get($breakpoints, tablet)) {
+  address {
+    & i {
+      font-size: 4rem;
+    }
+    width: 50%;
+  }
+  // Desktop
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
+    address {
+      & i {
+        font-size: 5rem;
+      }
+    }
+  }
+}
